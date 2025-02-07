@@ -1,0 +1,481 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome!!</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/all.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed css-nav w-100">
+      <div class="container-fluid">
+        <a class="navbar-brand border-end pe-2 me-0" href="#">
+          <img src="image/logo-removebg-preview.png" alt="umber" width="50" height="30" class="d-inline-block align-text-top">
+          Egypt
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">this</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle css-hover border rounded border-success-subtle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu css-nav">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+            <button type="button" class="btn btn-outline-success ms-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              login
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header text-bg-success p-3">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Login</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                  
+                    <form class="px-4 py-3">
+                      <div class="mb-3">
+                        <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                      </div>
+                      <div class="mb-3">
+                        <div class="form-check">
+                      
+                          <div class="form-check form-switch">
+                            
+                            <input class="form-check-input"  type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                            <label class="form-check-label" for="flexSwitchCheckChecked">Remember Me</label>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">New around here? Sign up</a>
+                    <a class="dropdown-item" href="#">Forgot password?</a>
+                   
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-success css-login">login</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="position-fixed css-icons z-3">
+      <ul class="d-flex flex-column fs-1 gap-5 ">
+        <li class="list-unstyled"><a href="#" class="css-link "><i class="fa-brands fa-facebook"></i></a></li>
+        <li class="list-unstyled"><a href="#" class="css-link "><i class="fa-brands fa-discord"></i></a></li>
+        <li class="list-unstyled"><a href="#" class="css-link "><i class="fa-brands fa-linkedin"></i></a></li>
+        <li class="list-unstyled"><a href="#" class="css-link "><i class="fa-brands fa-youtube"></i></a></li>
+      </ul>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active css-width">
+          <img src="image/1.jpg" class="d-block w-100 css-heigh" alt="...">
+          <div class="carousel-caption d-none d-md-block bg-success p-2 text-white bg-opacity-75">
+            <h5>First slide label</h5>
+            <p class=" btn btn-success">visit us</p>
+          </div>
+        </div>
+        <div class="carousel-item css-width">
+          <img src="image/2.jpg" class="d-block w-100 css-heigh" alt="...">
+          <div class="carousel-caption d-none d-md-block bg-success p-2 text-white bg-opacity-75">
+            <h5>Second slide label</h5>
+            <p class=" btn btn-success">visit us</p>
+          </div>
+        </div>
+        <div class="carousel-item css-width">
+          <img src="image/3.jpg" class="d-block w-100 css-heigh" alt="...">
+          <div class="carousel-caption d-none d-md-block bg-success p-2 text-white bg-opacity-75">
+            <h5>Third slide label</h5>
+            <p class=" btn btn-success">visit us</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="css-width p-3"> <h2 class="css-gradient">WELCOME</h2>
+     hello everyone welvome omw ensnwpo f wn sind eimd eidmeinde  eomd domde noed enodm odmend e dpemped epjepmpe ejeppemd ejpded <br> deodondei  deih dw bdwigd d enoee ckecoenneonc edjoend
+     <br>
+     <button type="button" class="btn btn-outline-success mt-2 "> Learn more!</button>
+  </div>
+  <hr class="border border-success-subtle css-width mt-3 mb-3 border-3 opacity-75 rounded">
+  <div class="css-width bg-success css-section2 position-relative rounded">
+    <div class="fs-1 position-absolute top-50 start-50 translate-middle text-white"> popular egypt !!!</div>
+  </div>
+
+  <hr class="border border-success-subtle css-width mt-3 mb-3 border-3 opacity-75 rounded">
+
+  <div class="accordion accordion-flush css-width rounded" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed css-gradient fs-2 rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Accordion Item #1
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body fs-5 rounded">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed css-gradient fs-2 rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body fs-5 rounded">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed css-gradient fs-2 rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Accordion Item #3
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body fs-5 rounded">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="border border-success-subtle css-width mt-3 mb-3 border-3 opacity-75 rounded">
+
+  <div class="css-width bg-success css-section3 position-relative rounded">
+    <div class="fs-1 position-absolute top-50 start-50 translate-middle text-white"> translate from english  to arabic</div>
+  </div>
+  <div class="css-section2 css-width rounded bg-success-subtle p-3 text-white">
+    <h1 > write and translate <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">press here</a> </h1>
+   
+    <button type="button" 
+            class="btn btn-success" 
+            data-bs-toggle="tooltip" 
+            data-bs-title="clipboard"
+            data-bs-container="body" 
+            data-bs-content="copied" 
+            id="tooltipPopoverBtn">
+      copy
+    </button>
+    <div class=" mt-2 form-floating">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+      <label for="floatingTextarea2">translate</label>
+    </div>
+  </div>
+
+  <hr class="border border-success-subtle css-width mt-3 mb-3 border-3 opacity-75 rounded">
+
+  <div class="css-width bg-success css-section3 position-relative rounded">
+    <div class="fs-1 position-absolute top-50 start-50 translate-middle text-white"> translate from arabic  to english</div>
+  </div>
+  <div class="css-section2 css-width rounded bg-success-subtle p-3 text-white">
+    <h1 > write and translate <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">press here</a> </h1>
+   
+    <button type="button" 
+            class="btn btn-success" 
+            data-bs-toggle="tooltip" 
+            data-bs-title="clipboard"
+            data-bs-container="body" 
+            data-bs-content="copied" 
+            id="tooltipPopoverBtn">
+      copy
+    </button>
+    <div class=" mt-2 form-floating">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+      <label for="floatingTextarea2">translate</label>
+    </div>
+  </div>
+
+  <hr class="border border-success-subtle css-width mt-3 mb-3 border-3 opacity-75 rounded">
+
+  <div class="css-width bg-success css-section3 position-relative rounded">
+    <div class="fs-1 position-absolute top-50 start-50 translate-middle text-white"> translate from english  to germany</div>
+  </div>
+  <div class="css-section2 css-width rounded bg-success-subtle p-3 text-white">
+    <h1 > write and translate <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">press here</a> </h1>
+   
+    <button type="button" 
+            class="btn btn-success" 
+            data-bs-toggle="tooltip" 
+            data-bs-title="clipboard"
+            data-bs-container="body" 
+            data-bs-content="copied" 
+            id="tooltipPopoverBtn">
+      copy
+    </button>
+    <div class=" mt-2 form-floating">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+      <label for="floatingTextarea2">translate</label>
+    </div>
+  </div>
+
+  <hr class="border border-success-subtle css-width mt-3 mb-3 border-3 opacity-75 rounded">
+
+  <div class="css-width css-section2 css-section4 rounded"></div>
+
+  <div class="css-width bg-success css-section2 position-relative rounded">
+    <div class="fs-1 position-absolute top-50 start-50 translate-middle  css-gradient "> popular egypt !!!</div>
+  </div>
+   <!-- ////////////////////// -->
+  
+  <div class="css-parent css-width bg-success-subtle row text-center">
+    
+    <div class="css-child col-4 mt-3 m-auto rounded position-relative css-overlay "> 
+      <img src="image/2.jpg" class="css-img mt-2 rounded mb-3">
+      <div class="d-flex justify-content-between text-white p-2">
+      <p>hello everyonw byw bye </p>
+      <button type="button" class="btn btn-success">learn more</button>
+    </div></div>
+    <div class="css-child col-4 mt-3 m-auto rounded position-relative css-overlay "> 
+      <img src="image/2.jpg" class="css-img mt-2 rounded mb-3">
+      <div class="d-flex justify-content-between text-white p-2">
+      <p>hello everyonw byw bye </p>
+      <button type="button" class="btn btn-success">learn more</button>
+    </div></div>
+    <div class="css-child col-4 mt-3 m-auto rounded position-relative css-overlay "> 
+      <img src="image/2.jpg" class="css-img mt-2 rounded mb-3">
+      <div class="d-flex justify-content-between text-white p-2">
+      <p>hello everyonw byw bye </p>
+      <button type="button" class="btn btn-success">learn more</button>
+    </div></div>
+
+  </div>
+  <div class="css-parent css-width bg-success-subtle row text-center">
+    
+    <div class="css-child col-4 mt-3 m-auto rounded position-relative css-overlay "> 
+      <img src="image/2.jpg" class="css-img mt-2 rounded mb-3">
+      <div class="d-flex justify-content-between text-white p-2">
+      <p>hello everyonw byw bye </p>
+      <button type="button" class="btn btn-success">learn more</button>
+    </div></div>
+    <div class="css-child col-4 mt-3 m-auto rounded position-relative css-overlay "> 
+      <img src="image/2.jpg" class="css-img mt-2 rounded mb-3">
+      <div class="d-flex justify-content-between text-white p-2">
+      <p>hello everyonw byw bye </p>
+      <button type="button" class="btn btn-success">learn more</button>
+    </div></div>
+    <div class="css-child col-4 mt-3 m-auto rounded position-relative css-overlay "> 
+      <img src="image/2.jpg" class="css-img mt-2 rounded mb-3">
+      <div class="d-flex justify-content-between text-white p-2">
+      <p>hello everyonw byw bye </p>
+      <button type="button" class="btn btn-success">learn more</button>
+    </div></div>
+
+  </div>
+  <div class="css-parent css-width bg-success-subtle row text-center">
+    
+    <div class="css-child col-4 mt-3 m-auto rounded position-relative css-overlay "> 
+      <img src="image/2.jpg" class="css-img mt-2 rounded mb-3">
+      <div class="d-flex justify-content-between text-white p-2">
+      <p>hello everyonw byw bye </p>
+      <button type="button" class="btn btn-success">learn more</button>
+    </div></div>
+    <div class="css-child col-4 mt-3 m-auto rounded position-relative css-overlay "> 
+      <img src="image/2.jpg" class="css-img mt-2 rounded mb-3">
+      <div class="d-flex justify-content-between text-white p-2">
+      <p>hello everyonw byw bye </p>
+      <button type="button" class="btn btn-success">learn more</button>
+    </div></div>
+
+  </div>
+  
+  <hr class="border border-success-subtle css-width mt-3 mb-3 border-3 opacity-75 rounded">
+
+  <div class="css-width css-section2 css-section4 rounded"></div>
+
+  <div class="css-width bg-success css-section2 position-relative rounded">
+    <div class="fs-1 position-absolute top-50 start-50 translate-middle  css-gradient "> popular egypt !!!</div>
+  </div>
+<!-- ///////////////////////// -->
+<div class="row">
+ <div class="card text-white m-auto border-0 col-3 css-section5 mt-5 p-0">
+  <img src="image/300 (1).jpeg" class="card-img" alt="m">
+  <div class="card-img-overlay css-overlay2 ">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text"><small><i class="fa-regular fa-clock"></i> Last updated 3 mins ago</small></p>
+    <div class="css-section5-child mt-4">
+      <img src="image/300 (1).jpeg" class="rounded-circle">
+      <p>hello everyome</p>
+    </div>
+  </div>
+ </div>
+ <div class="card text-white m-auto border-0 col-3 css-section5 mt-5 p-0">
+  <img src="image/300 (1).jpeg" class="card-img" alt="m">
+  <div class="card-img-overlay css-overlay2 ">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text"><small><i class="fa-regular fa-clock"></i> Last updated 3 mins ago</small></p>
+    <div class="css-section5-child mt-4">
+      <img src="image/300 (1).jpeg" class="rounded-circle">
+      <p>hello everyome</p>
+    </div>
+  </div>
+ </div>
+ <div class="card text-white m-auto border-0 col-3 css-section5 mt-5 p-0">
+  <img src="image/300 (1).jpeg" class="card-img" alt="m">
+  <div class="card-img-overlay css-overlay2 ">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text"><small><i class="fa-regular fa-clock"></i> Last updated 3 mins ago</small></p>
+    <div class="css-section5-child mt-4">
+      <img src="image/300 (1).jpeg" class="rounded-circle">
+      <p>hello everyome</p>
+    </div>
+  </div>
+ </div>
+</div>
+<hr class="border border-success-subtle css-width mt-3 mb-3 border-3 opacity-75 rounded">
+<h1 class="text-center css-gradient "> Egypt News </h1>
+<!-- ///////////// -->
+
+<div class="card mb-5 mt-2 shadow-lg p-3 mb-5 bg-body-tertiary rounded css-section6" >
+  <div class="row g-0 dd">
+    
+    <div class="col-md-8 css-section6-d">
+      <div class="card-body ">
+        <h2 class="card-title">Card title</h2>
+        <p  class="card-text "><small class="text-body-secondary border-bottom p-1"><i class="fa-regular fa-calendar-days"></i> Last updated 3 mins ago</small></p>
+        <p  class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer
+          al content. This content is a little bit longer al content. This content is a little bit longer al content. This content is a little bit longer
+          al content. This content is a little bit longer al content. This content is a little bit longer al content. This content is a little bit longer al content. This content is a little bit longer .</p>
+      </div>
+      <div class="css-margin"> <button class="btn btn-outline-success btn-section6"><i class="fa-solid fa-podcast"></i> podcast</button>      <button class="btn btn-outline-success btn-section6"><i class="fa-solid fa-podcast"></i> podcast</button> </div>
+    </div>
+    <div class="col-md-4 css-section6-dd">
+    </div>
+  </div>
+</div>
+
+<div class="card mb-5 mt-2 shadow-lg p-3 mb-5 bg-body-tertiary rounded css-section6" >
+  <div class="row g-0 dd">
+    
+    <div class="col-md-8 css-section6-d">
+      <div class="card-body ">
+        <h2 class="card-title">Card title</h2>
+        <p  class="card-text "><small class="text-body-secondary border-bottom p-1"><i class="fa-regular fa-calendar-days"></i> Last updated 3 mins ago</small></p>
+        <p  class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer
+          al content. This content is a little bit longer al content. This content is a little bit longer al content. This content is a little bit longer
+          al content. This content is a little bit longer al content. This content is a little bit longer al content. This content is a little bit longer al content. This content is a little bit longer .</p>
+      </div>
+      <div class="css-margin"> <button class="btn btn-outline-success btn-section6"><i class="fa-solid fa-podcast"></i> podcast</button>      <button class="btn btn-outline-success btn-section6"><i class="fa-solid fa-podcast"></i> podcast</button> </div>
+    </div>
+    <div class="col-md-4 css-section6-dd">
+    </div>
+  </div>
+</div>
+
+<div class="card mb-5 mt-2 shadow-lg p-3 mb-5 bg-body-tertiary rounded css-section6" >
+  <div class="row g-0 dd">
+    
+    <div class="col-md-8 css-section6-d">
+      <div class="card-body ">
+        <h2 class="card-title">Card title</h2>
+        <p  class="card-text "><small class="text-body-secondary border-bottom p-1"><i class="fa-regular fa-calendar-days"></i> Last updated 3 mins ago</small></p>
+        <p  class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer
+          al content. This content is a little bit longer al content. This content is a little bit longer al content. This content is a little bit longer
+          al content. This content is a little bit longer al content. This content is a little bit longer al content. This content is a little bit longer al content. This content is a little bit longer .</p>
+      </div>
+      <div class="css-margin"> <button class="btn btn-outline-success btn-section6"><i class="fa-solid fa-podcast"></i> podcast</button>      <button class="btn btn-outline-success btn-section6"><i class="fa-solid fa-podcast"></i> podcast</button> </div>
+    </div>
+    <div class="col-md-4 css-section6-dd">
+    </div>
+  </div>
+</div>
+<hr class="border border-success-subtle css-width mt-3 mb-3 border-3 opacity-75 rounded">
+
+<h1 class="text-center css-gradient "> Egypt News </h1>
+<div class="row css-width mt-4">
+  <div class="col-2 text-center mb-4 m-auto bg-dark-subtle fs-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded"><h3>follow us!</h3> <p><a href="#" class="text-black"><i class="fa-brands fa-facebook"></i></a></p> go to link </div>
+  <div class="col-2 text-center mb-4 m-auto bg-dark-subtle fs-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded"><h3>follow us!</h3> <p><a href="#" class="text-black"><i class="fa-brands fa-facebook"></i></a></p> go to link </div>
+  <div class="col-2 text-center mb-4 m-auto bg-dark-subtle fs-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded"><h3>follow us!</h3> <p><a href="#" class="text-black"><i class="fa-brands fa-facebook"></i></a></p> go to link </div>
+  <div class="col-2 text-center mb-4 m-auto bg-dark-subtle fs-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded"><h3>follow us!</h3> <p><a href="#" class="text-black"><i class="fa-brands fa-facebook"></i></a></p> go to link </div>
+</div>
+
+<div class="row css-width bg-success">
+  <div class="col-3 text-center m-auto "><hr class="border border-success-subtle  mt-3 mb-3 border-3 opacity-75 rounded">
+  <img src="image/1.jpg" width="100" height="200" class="rounded-circle d-inline">  Good company
+  <hr class="border border-success-subtle  mt-3 mb-3 border-3 opacity-75 rounded">
+  kmsmmkdmsmmkmd <br>sddsadsdsd <br> dsabahjsbdasd 
+  </div>
+  <div class="col-3 text-center m-auto "><hr class="border border-success-subtle  mt-3 mb-3 border-3 opacity-75 rounded">
+  <img src="image/1.jpg" width="100" height="200" class="rounded-circle d-inline">  Good company
+  <hr class="border border-success-subtle  mt-3 mb-3 border-3 opacity-75 rounded">
+  kmsmmkdmsmmkmd <br>sddsadsdsd <br> dsabahjsbdasd 
+  </div>
+  <div class="col-3 text-center m-auto "><hr class="border border-success-subtle mt-3 mb-3 border-3 opacity-75 rounded">
+  <img src="image/1.jpg" width="100" height="200" class="rounded-circle d-inline">  Good company
+  <hr class="border border-success-subtle  mt-3 mb-3 border-3 opacity-75 rounded">
+  kmsmmkdmsmmkmd <br>sddsadsdsd <br> dsabahjsbdasd 
+  </div>
+  <hr class="border border-success-subtle  mt-3 mb-3 border-3 opacity-75 rounded">
+  <p class="text-center css-gradient">&copy; 2025 Your Company Name. All rights reserved.</p>
+  <hr class="border border-success-subtle  mt-3 mb-3 border-3 opacity-75 rounded">
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="script/bootstrap.min.js"></script>
+  <script>const tooltipTrigger = document.querySelector('#tooltipPopoverBtn');
+    const tooltipInstance = new bootstrap.Tooltip(tooltipTrigger);
+
+    // Initialize Popover
+    const popoverInstance = new bootstrap.Popover(tooltipTrigger, {
+      trigger: 'click' // Popover appears on click
+    });
+
+    // Optional: Handle potential interaction conflicts
+    tooltipTrigger.addEventListener('click', () => {
+      // Hide the tooltip when the popover is triggered
+      tooltipInstance.hide()})
+
+  </script>
+</body>
+</html>
